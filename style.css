@@ -18,6 +18,7 @@ body{
 }
 .main {
     width:87%;
+    max-width:1153px;
     margin:10% 0 10%;
     display:grid;
     /* border: .5px solid red; */
@@ -114,7 +115,8 @@ body{
         height:100vh;
     }
     .main {
-        width:77%;
+        width:70%;
+        grid-gap:3%;
         overflow:initial;
         grid-template-columns: repeat(4,25%);
     }
